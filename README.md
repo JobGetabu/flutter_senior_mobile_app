@@ -15,3 +15,8 @@ A few resources to get you started if this is your first Flutter project:
 
 - Use Android studio 
 - Running the test using Android studio 
+
+
+### TODO
+- link Dio to repositories
+- link repository to the views for conducting api calls
