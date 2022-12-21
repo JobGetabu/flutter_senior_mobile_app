@@ -1,6 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_senior_mobile_app/constants/colors.dart';
+import 'package:flutter_senior_mobile_app/screens/login_screen.dart';
 import 'package:flutter_senior_mobile_app/utils/size_config.dart';
 import 'package:flutter_senior_mobile_app/utils/toast_utils.dart';
 import 'package:flutter_senior_mobile_app/widgets/default_amitruck_button.dart';
@@ -52,9 +53,10 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               displayLoading: false,
               fontSize: 14,
               height: 50,
-              disable: false,
               press: (){
-                ToastUtils.showSuccessToast('Accepted!');
+                ToastUtils.showSuccessToast('Accepted terms and Conditions!');
+
+                Navigator.pushNamed(context, LoginScreen.routeName);
               },
             ),
             SizedBox(height:16),

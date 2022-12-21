@@ -9,3 +9,12 @@ var defaultAppBar = AppBar(
   ),
 );
 
+var homeAppBar = AppBar(
+  backgroundColor: Colors.white,
+  elevation: 0.0,
+  leading: Icon(Icons.menu_outlined, color: tdRed,),
+  leadingWidth: 56,
+  iconTheme: IconThemeData(
+    color: tdGrey,
+  ),
+);

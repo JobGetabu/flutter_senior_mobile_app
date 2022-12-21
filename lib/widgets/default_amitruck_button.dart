@@ -31,7 +31,7 @@ class PrimaryButton extends StatelessWidget {
   final double loaderSize;
   final bool displayLoading;
   final bool disable;
-  final String? frontIcon;
+  final Widget? frontIcon;
   final Color? backGroundColor;
   final Color? textColor;
   final Color? frontIconColor;
@@ -65,11 +65,7 @@ class PrimaryButton extends StatelessWidget {
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Spacer(),
-                      SvgPicture.asset(
-                        frontIcon!,
-                        color: frontIconColor,
-                        height: iconHeight ?? 18,
-                      ),
+                      frontIcon!,
                       SizedBox(
                         width: 8,
                       ),
