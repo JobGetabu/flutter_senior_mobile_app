@@ -13,8 +13,14 @@ A few resources to get you started if this is your first Flutter project:
 
 ## Running the app
 
+- Install flutter SDK, Android SDK & xcode (optional for iOS)
 - Use Android studio 
 - Running the test using Android studio 
+- flutter run
+
+### building APK
+flutter build apk --release
+
 
 
 ### TODO
